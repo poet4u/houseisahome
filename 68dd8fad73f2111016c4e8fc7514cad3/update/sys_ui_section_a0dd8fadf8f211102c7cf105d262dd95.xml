@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a0dd8fadf8f211102c7cf105d262dd95" sys_domain="global" table="x_879347_employe_0_relationship_notes" version="3" view="portal">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>24dd8fadbef211107d2e4c022864b495</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>note</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>e4dd8fad06f211103b0e368d37a50594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>a8dd8fad5df211102b5a9002aa494194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>2cdd8fad04f211101ef67eac1cbe2f94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>acdd8fad1df21110867d9bde66b16894</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relationship</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>28dd8fadc9f21110a55073386c645b94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>e8dd8fad0ff21110475713f2b647c894</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_location</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_id>68dd8fadadf21110d17537b29dc70e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_879347_employe_0_relationship_notes" sys_domain="global" view="cd9f0660f90211108c8bd16244dfe753">a0dd8fadf8f211102c7cf105d262dd95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-27 15:37:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_879347_employe_0_relationship_notes</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0dd8fadf8f211102c7cf105d262dd95</sys_id>
+            <sys_name>x_879347_employe_0_relationship_notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+            <sys_update_name>sys_ui_section_a0dd8fadf8f211102c7cf105d262dd95</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Portal" name="portal">cd9f0660f90211108c8bd16244dfe753</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

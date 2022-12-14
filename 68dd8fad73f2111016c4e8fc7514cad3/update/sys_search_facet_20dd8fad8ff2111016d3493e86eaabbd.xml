@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_facet">
+    <sys_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_facet_name>sys_user.department</ais_facet_name>
+        <label>Department</label>
+        <name>Department</name>
+        <option_limit>10</option_limit>
+        <order>100</order>
+        <search_context_config display_value="Team Contact Search Configuration">e8dd8fad71f21110e13ec04c7604d8d0</search_context_config>
+        <sys_class_name>sys_search_facet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:11</sys_created_on>
+        <sys_id>20dd8fad8ff2111016d3493e86eaabbd</sys_id>
+        <sys_name>sys_user.department</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_search_facet_20dd8fad8ff2111016d3493e86eaabbd</sys_update_name>
+    </sys_search_facet>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Employees\' Contact">acdd8fadd1f21110567342f2af9a2bb4</applet_launcher>
+        <icon display_value="Group">143d8da2b72200108223e126de11a927</icon>
+        <label>Employees</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:10</sys_created_on>
+        <sys_id>e4dd8fad30f211102bf30a5ceba66eb4</sys_id>
+        <sys_name>Employees</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_e4dd8fad30f211102bf30a5ceba66eb4</sys_update_name>
+    </sys_sg_applet_launcher_tab>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>image_01_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:14</sys_created_on>
+        <sys_id>acdd8fadeaf211108eec10ada7cd2aa1</sys_id>
+        <sys_name>image_01_element</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_acdd8fadeaf211108eec10ada7cd2aa1</sys_update_name>
+        <view_config display_value="My Direct Reports View Config">68dd8faddff211104f022fdeb3cf18a7</view_config>
+        <view_template_slot display_value="image_01">7aee27930f202010e70a4abec4767edb</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

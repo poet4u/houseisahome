@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Validates Contact Date</description>
+        <field>contact_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Note Date onChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var ajax = new GlideAjax('x_879347_employe_0.DateTimeUtils');
+    ajax.addParam('sysparm_name', 'checkPastDate');
+    ajax.addParam('sysparm_required', newValue);
+    ajax.getXML(dateValidation);
+
+    function dateValidation(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        if (answer == 'true') {
+            g_form.clearValue('contact_date');
+            getMessage("Please check contact date to make sure that the contact date is not in the future!", function(msg) {
+                g_form.showErrorBox('contact_date', msg);
+            });
+        } else {
+            g_form.hideFieldMsg('contact_date');
+        }
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64dd8fadf6f21110f4e77d819007c9bd</sys_id>
+        <sys_name>Validate Note Date onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_script_client_64dd8fadf6f21110f4e77d819007c9bd</sys_update_name>
+        <table>x_879347_employe_0_relationship_notes</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

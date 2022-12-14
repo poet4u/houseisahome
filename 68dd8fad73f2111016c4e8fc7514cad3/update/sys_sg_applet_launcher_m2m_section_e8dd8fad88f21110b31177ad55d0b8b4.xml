@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Employees\' Contact">acdd8fadd1f21110567342f2af9a2bb4</applet_launcher>
+        <order>40</order>
+        <section display_value="All Employees">68dd8fad90f21110004b43324c4c9ab4</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:14</sys_created_on>
+        <sys_id>e8dd8fad88f21110b31177ad55d0b8b4</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_e8dd8fad88f21110b31177ad55d0b8b4</sys_update_name>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

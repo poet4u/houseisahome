@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Team Contact Search">20dd8fadfff2111082746b603df03b8f</dataset>
+        <datasource display_value="Genius Result Data Source">6d7939f1ffe31010968af5a1703bf153</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:08</sys_created_on>
+        <sys_id>e0dd8fad7ff211100ea244516623388e</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_e0dd8fad7ff211100ea244516623388e</sys_update_name>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="x_879347_employe_0.Team Contact " name="x_879347_employe_0.Team Contact ">60dd8fad3ff211108426969151e379d0</category>
+        <collection>x_879347_employe_0_relationship_contact_reminders</collection>
+        <condition table="x_879347_employe_0_relationship_contact_reminders">note_dateVALCHANGES^note_dateISNOTEMPTY^note_subjectISNOTEMPTY^contactISNOTEMPTY^contact.contact_nameISNOTEMPTY^contact.nameISEMPTY^EQ<item endquery="false" field="note_date" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="note_date" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="note_subject" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="contact" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="contact.contact_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="contact.name" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Team Contact Reminder Aknoledgement Notification</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_879347_employe_0.notify_contact_remind</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div class="container rounded-lg">
+<div class="card text-center">
+<div class="card-header card-header-black">${contact.name.company}</div>
+<div class="card-body">
+<div class="reminder-icon">
+<div class="reminder-status">i</div>
+</div>
+<br />
+<p class="reminder-header">Here's your reminder about this contact</p>
+<p class="reminder-content-label">When</p>
+<p class="reminder-content-text">${mail_script:x_879347_employe_0_FriendlyDateTime}</p>
+<br />
+<p class="reminder-content-label">Who</p>
+<p class="reminder-content-text">${contact.contact_name}</p>
+<br />
+<p class="reminder-content-label">Subject</p>
+<p class="reminder-content-text">${note_subject}</p>
+<br />${mail_script:x_879347_employe_0_team_contact_url}
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div class="card-image"><img class="nopadding full" src="x_879347_employe_0.team_contact_tile.svg" /></div>
+<div>&nbsp;</div>
+<div class="reminder-footer">
+<div class="text-muted reminder-footer-text">${This email was sent to you by the} ${contact.name.company}'s ${team contact system}.
+<p>&copy; ${contact.name.company} | ${All Rights Reserved}</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Team Contact Reminder Ackn Notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>contact.name</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>You have set a reminder about  ${contact.contact_name}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8dd8fada8f21110450f6106cba1cccf</sys_id>
+        <sys_name>Team Contact Reminder Ackn Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sysevent_email_action_e8dd8fada8f21110450f6106cba1cccf</sys_update_name>
+        <sys_version>2</sys_version>
+        <template display_value="Team Contact Reminder Notification">6cdd8fad16f211107e3d00f14b6e9ccf</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

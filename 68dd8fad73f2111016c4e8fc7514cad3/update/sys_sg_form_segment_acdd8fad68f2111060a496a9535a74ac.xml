@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Details">a0dd8fadcef21110d310c722ffbed1b2</embedded_screen>
+        <form display_value="My Direct Reports">60dd8fadedf2111084871cf4bef4f1b1</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>10</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:07</sys_created_on>
+        <sys_id>acdd8fad68f2111060a496a9535a74ac</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_form_segment_acdd8fad68f2111060a496a9535a74ac</sys_update_name>
+    </sys_sg_form_segment>
+</record_update>

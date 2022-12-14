@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Favorites Item Stream">28dd8fada1f21110c176bfc4e4df9daa</item_stream>
+        <master_item display_value="Favorites Main Item">60dd8fad6af21110f0f60d002ef50caa</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:12</sys_created_on>
+        <sys_id>acdd8fad2ef21110fa0446dc9f1569a9</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_acdd8fad2ef21110fa0446dc9f1569a9</sys_update_name>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

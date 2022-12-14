@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="404">e4dd8fadbbf21110cd583076f9545a90</macroponent>
+        <name>Redirect To Home</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    api.emit("NAV_ITEM_SELECTED", {
+        route: "home"
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:15</sys_created_on>
+        <sys_id>64dd8fade4f21110cd68a41b2e6a2890</sys_id>
+        <sys_name>Redirect To Home</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_client_script_64dd8fade4f21110cd68a41b2e6a2890</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

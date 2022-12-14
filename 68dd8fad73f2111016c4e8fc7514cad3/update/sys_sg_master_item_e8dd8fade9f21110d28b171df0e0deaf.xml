@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_879347_employe_0_relationship_contact_reminders</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="">046844810f416010e3a6120ba4767e5a</embedded_screen>
+        <item_view/>
+        <name>List of Reminders for a contact Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:11</sys_created_on>
+        <sys_id>e8dd8fade9f21110d28b171df0e0deaf</sys_id>
+        <sys_name>List of Reminders for a contact Main Item</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_master_item_e8dd8fade9f21110d28b171df0e0deaf</sys_update_name>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="List of Reminders for a contact View Config">2cdd8fad2ef211105cdd9fe45959c5a7</view_config>
+    </sys_sg_master_item>
+</record_update>

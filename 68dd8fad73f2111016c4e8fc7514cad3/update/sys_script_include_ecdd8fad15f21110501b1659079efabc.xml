@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_879347_employe_0.DateTimeUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DateTimeUtils</name>
+        <script><![CDATA[var DateTimeUtils = Class.create();
+DateTimeUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    userDateformat: function(date, userID) {
+        var dateFormat = '';
+        userID = userID || gs.getUserID();
+        var userObj = new GlideRecord('sys_user');
+        if (userObj.get(userID)) {
+            dateFormat = userObj.getValue('date_format');
+        }
+        if (date) {
+            var gdt = new GlideDateTime(date);
+            var gd = new GlideDate();
+            gd.setValue(gdt);
+            return gd.getByFormat(dateFormat);
+        }
+    },
+	checkPastDate: function(dateToCheck){
+		var dateRequired = this.getParameter('sysparm_required') || dateToCheck;
+		var currentDate = new GlideDateTime();
+		currentDate.setValue(currentDate.getDate()+" 00:00:00");
+		var dateReq = new GlideDateTime();
+		dateReq.setDisplayValue(dateRequired);
+		dateReq.setValue(dateReq.getDate()+" 00:00:00");
+		var diff =  Math.floor(GlideDateTime.subtract(currentDate, dateReq).getNumericValue()/1000);
+		if( diff >= 0){
+			return "false";
+		}else{
+			return "true";
+		}
+	},	
+    type: 'DateTimeUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:20</sys_created_on>
+        <sys_id>ecdd8fad15f21110501b1659079efabc</sys_id>
+        <sys_name>DateTimeUtils</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_script_include_ecdd8fad15f21110501b1659079efabc</sys_update_name>
+    </sys_script_include>
+</record_update>

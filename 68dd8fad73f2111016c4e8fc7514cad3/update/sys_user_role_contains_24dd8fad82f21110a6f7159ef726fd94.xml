@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_879347_employe_0.employee" name="x_879347_employe_0.employee">20dd8fad74f21110a5cb886a284bffd3</contains>
+        <role display_value="x_879347_employe_0.manager" name="x_879347_employe_0.manager">a0dd8fadccf21110ce18aae0717450d3</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:11</sys_created_on>
+        <sys_id>24dd8fad82f21110a6f7159ef726fd94</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_user_role_contains_24dd8fad82f21110a6f7159ef726fd94</sys_update_name>
+    </sys_user_role_contains>
+</record_update>

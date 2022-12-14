@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Team Contacts Location">2cdd8fadacf21110aa1fb0ea26cb5ab3</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name>contact_name.location</field_name>
+        <icon/>
+        <label/>
+        <location>field</location>
+        <name/>
+        <order>40</order>
+        <parent>a8dd8fad5af2111086b8828be60c74b0</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:07</sys_created_on>
+        <sys_id>2cdd8fad8cf211103261b4c9c72331af</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_button_instance_2cdd8fad8cf211103261b4c9c72331af</sys_update_name>
+        <table>x_879347_employe_0_relationship_contact</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=2cdd8fad8cf211103261b4c9c72331af"/>
+</record_update>

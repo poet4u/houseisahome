@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>My Favorites</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition table="x_879347_employe_0_relationship_contact">favorite=true^nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="favorite" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:12</sys_created_on>
+        <sys_id>60dd8fad30f21110b3d2e63a4add74af</sys_id>
+        <sys_name>My Favorites</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_data_item_60dd8fad30f21110b3d2e63a4add74af</sys_update_name>
+        <table>x_879347_employe_0_relationship_contact</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=60dd8fad30f21110b3d2e63a4add74af"/>
+</record_update>

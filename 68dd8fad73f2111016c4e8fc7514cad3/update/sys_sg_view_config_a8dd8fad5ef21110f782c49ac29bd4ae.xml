@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Empty State Favorites</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:06</sys_created_on>
+        <sys_id>a8dd8fad5ef21110f782c49ac29bd4ae</sys_id>
+        <sys_name>Empty State Favorites</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_view_config_a8dd8fad5ef21110f782c49ac29bd4ae</sys_update_name>
+        <table>x_879347_employe_0_relationship_contact</table>
+        <template display_value="Default Empty State Template">7eb49d52b723101096aa25efce11a954</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8dd8fad5ef21110f782c49ac29bd4ae"/>
+</record_update>

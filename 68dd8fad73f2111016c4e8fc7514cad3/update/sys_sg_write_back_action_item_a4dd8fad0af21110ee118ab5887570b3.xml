@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	var contactRecord = "";
+	var userGR = new GlideRecord('x_879347_employe_0_relationship_contact');
+	userGR.addQuery('contact_name', input.sys_id);
+	userGR.addQuery('name', gs.getUserID());
+	userGR.query();
+	if (userGR.next()) {
+		contactRecord = userGR.getValue('sys_id');
+	}
+	
+	if (!contactRecord) { //if no contact record, create one before adding the reminder
+		var newRelationshipGR = new GlideRecord('x_879347_employe_0_relationship_contact');
+		newRelationshipGR.initialize();
+		newRelationshipGR.name = gs.getUserID();
+		newRelationshipGR.contact_name = input.sys_id;
+		contactRecord = newRelationshipGR.insert();
+	}
+	
+   var gr = new GlideRecord('x_879347_employe_0_relationship_notes');
+	gr.initialize(); 
+	gr.contact = contactRecord; 
+	gr.contact_date = input.Date;
+	gr.note = input.Note;
+	gr.relationship = input.Reason;
+	gr.contact_location = input.Where;
+	gr.insert();
+ 
+})(input);]]></execution_script>
+        <name>Add Note for Contact</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:19</sys_created_on>
+        <sys_id>a4dd8fad0af21110ee118ab5887570b3</sys_id>
+        <sys_name>Add Note for Contact</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_a4dd8fad0af21110ee118ab5887570b3</sys_update_name>
+        <table>x_879347_employe_0_relationship_notes</table>
+        <template>note={{Note}}&#13;
+^contact_date={{Date}}^relationship={{Reason for contact}}^contact_location=^EQ</template>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4dd8fad0af21110ee118ab5887570b3"/>
+</record_update>

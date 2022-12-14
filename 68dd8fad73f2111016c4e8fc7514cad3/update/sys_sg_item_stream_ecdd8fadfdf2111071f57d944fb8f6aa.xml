@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Reminders Related DI">a0dd8fad16f21110bdba06df7414d0ab</data_item>
+        <interleaved_field/>
+        <name>Reminders - relationship table Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:15</sys_created_on>
+        <sys_id>ecdd8fadfdf2111071f57d944fb8f6aa</sys_id>
+        <sys_name>Reminders - relationship table Item Stream</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_item_stream_ecdd8fadfdf2111071f57d944fb8f6aa</sys_update_name>
+        <table>x_879347_employe_0_relationship_contact_reminders</table>
+    </sys_sg_item_stream>
+</record_update>

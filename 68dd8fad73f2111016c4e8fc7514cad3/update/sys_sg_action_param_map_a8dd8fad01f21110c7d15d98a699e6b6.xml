@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Add Note">e4dd8fadeff21110a9cb09fcc7431eb8</button>
+        <item_parameter display_value="Note">a4dd8fadd2f21110ddf7b306548eb8b6</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:09</sys_created_on>
+        <sys_id>a8dd8fad01f21110c7d15d98a699e6b6</sys_id>
+        <sys_name>a4dd8fadd2f21110ddf7b306548eb8b6</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_a8dd8fad01f21110c7d15d98a699e6b6</sys_update_name>
+        <ui_parameter display_value="Note">acdd8fadbff211107f0dd1e39e860db6</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text 3</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:16</sys_created_on>
+        <sys_id>e8dd8fad9af2111072203fe1f9ac3fa0</sys_id>
+        <sys_name>text 3</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_e8dd8fad9af2111072203fe1f9ac3fa0</sys_update_name>
+        <view_config display_value="Favorites View Config">a0dd8fad13f211103d11289b8476bea7</view_config>
+        <view_template_slot display_value="">cbacfe9441e71010f877183fc9b8beb6</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

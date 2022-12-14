@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state display_value="Notes Empty State">28dd8fad48f211106752745a36cfb9ae</empty_state>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">e8dd8fad6ff21110036d4ef7d69b91ab</icon>
+        <name>Notes</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:20</sys_created_on>
+        <sys_id>24dd8fadf5f211106d88e3aa45241aad</sys_id>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_list_screen_24dd8fadf5f211106d88e3aa45241aad</sys_update_name>
+    </sys_sg_list_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=24dd8fadf5f211106d88e3aa45241aad"/>
+</record_update>

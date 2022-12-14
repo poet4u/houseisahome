@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="List of notes Item Stream">68dd8fad28f21110b3b4ad893c0f4daa</item_stream>
+        <master_item display_value="List of notes Main Item">20dd8fad4cf2111081cd6419411306aa</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:08</sys_created_on>
+        <sys_id>2cdd8fadf1f21110604a78f8ed53dba9</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_2cdd8fadf1f21110604a78f8ed53dba9</sys_update_name>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

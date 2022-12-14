@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="My Direct Reports Item Stream">24dd8fad58f211102799ff80026fcdaa</item_stream>
+        <master_item display_value="My Direct Reports Main Item">a4dd8fad01f21110426586ac70139baa</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:16</sys_created_on>
+        <sys_id>64dd8fadf9f21110cc2bb96f21884eaa</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_64dd8fadf9f21110cc2bb96f21884eaa</sys_update_name>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

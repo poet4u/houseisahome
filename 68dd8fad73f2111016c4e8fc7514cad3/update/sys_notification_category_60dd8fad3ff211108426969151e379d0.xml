@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_category">
+    <sys_notification_category action="INSERT_OR_UPDATE">
+        <name>x_879347_employe_0.Team Contact </name>
+        <short_description>Team Contact Notifications</short_description>
+        <sys_class_name>sys_notification_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:07</sys_created_on>
+        <sys_id>60dd8fad3ff211108426969151e379d0</sys_id>
+        <sys_name>x_879347_employe_0.Team Contact</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_notification_category_60dd8fad3ff211108426969151e379d0</sys_update_name>
+    </sys_notification_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=60dd8fad3ff211108426969151e379d0"/>
+</record_update>

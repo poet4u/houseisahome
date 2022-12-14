@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Notes Related DI">60dd8fadc8f21110c4e34d398d945bab</data_item>
+        <interleaved_field/>
+        <name>Notes - Relationship Table Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:15</sys_created_on>
+        <sys_id>6cdd8fada9f21110360c5d20548c63aa</sys_id>
+        <sys_name>Notes - Relationship Table Item Stream</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_item_stream_6cdd8fada9f21110360c5d20548c63aa</sys_update_name>
+        <table>x_879347_employe_0_relationship_notes</table>
+    </sys_sg_item_stream>
+</record_update>
