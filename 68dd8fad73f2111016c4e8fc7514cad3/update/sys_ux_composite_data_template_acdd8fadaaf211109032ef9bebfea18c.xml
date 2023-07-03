@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>team-contact-direct-template</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:13</sys_created_on>
+        <sys_id>acdd8fadaaf211109032ef9bebfea18c</sys_id>
+        <sys_name>team-contact-direct-template</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_acdd8fadaaf211109032ef9bebfea18c</sys_update_name>
+        <template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+		"imageType": {&#13;
+			"translatable": false,&#13;
+			"key": "avatar"&#13;
+		},&#13;
+		"detailLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "Email address"&#13;
+		},&#13;
+        &#13;
+		"detailLabelTwo": {&#13;
+			"translatable": true,&#13;
+			"key": "Phone"&#13;
+		}&#13;
+	},&#13;
+	"mappings": {&#13;
+		"titleLabel": "name",&#13;
+		"avatarURL": "photo",&#13;
+		"subtitle": "title",&#13;
+        "subtitleAvatarURL": "",&#13;
+		"detailValueOne": "email",&#13;
+		"detailValueTwo": "phone"&#13;
+	},&#13;
+	"actionMappings": {&#13;
+		"mainActions": ["activate_user", "call_number"],&#13;
+		"clickAction": "navigation"&#13;
+	}&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

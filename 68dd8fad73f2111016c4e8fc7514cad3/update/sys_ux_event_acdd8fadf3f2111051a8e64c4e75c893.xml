@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>RECORD_CARD_CLICK</event_name>
+        <interfaces/>
+        <label>Note card click</label>
+        <props>[{"name":"table","fieldType":"","label":"Table","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"sysId","fieldType":"","label":"Sys Id","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[{"message":"Table","comment":""},{"message":"Sys Id","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:17</sys_created_on>
+        <sys_id>acdd8fadf3f2111051a8e64c4e75c893</sys_id>
+        <sys_name>Note card click</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_event_acdd8fadf3f2111051a8e64c4e75c893</sys_update_name>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=acdd8fadf3f2111051a8e64c4e75c893"/>
+</record_update>

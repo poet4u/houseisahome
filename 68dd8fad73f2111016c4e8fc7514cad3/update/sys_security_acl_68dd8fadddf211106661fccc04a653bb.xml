@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>- Employees can create/view/write this table</description>
+        <name>x_879347_employe_0_relationship_contact_reminders</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[answer = true;
+// if not created by logged in user then no access
+if(!current.isNewRecord() && current.contact.name != gs.getUserID()){
+	answer = false;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:19</sys_created_on>
+        <sys_id>68dd8fadddf211106661fccc04a653bb</sys_id>
+        <sys_name>x_879347_employe_0_relationship_contact_reminders</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_security_acl_68dd8fadddf211106661fccc04a653bb</sys_update_name>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

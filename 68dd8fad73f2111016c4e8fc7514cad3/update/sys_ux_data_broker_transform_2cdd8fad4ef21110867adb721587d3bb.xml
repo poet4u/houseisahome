@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_879347_employe_0.Show notes &amp; reminder Transform</api_name>
+        <description>- Profile page reminders/notes card should only have cards belong to the user whose profile is displayed</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Show notes &amp; reminder Transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "notes_reminders",&#13;
+    "label": "Notes/Reminders output",&#13;
+    "description": "",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "object",&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+  },&#13;
+  {&#13;
+    "name": "contact_id",&#13;
+    "label": "Contact ID",&#13;
+    "description": "",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+  }&#13;
+]</props>
+        <required_translations>[{"message":"Notes/Reminders output","comment":""},{"message":"Contact ID","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	
+   input.notes_reminders.items = input.notes_reminders.items.filter(function(item) {
+		
+        var sys_id = item.propValues.model.sys_id;
+		var table = item.propValues.model.table;
+		
+		var savedContactGR = new GlideRecord(table);
+		savedContactGR.get(sys_id);
+		if(savedContactGR.isValidRecord()) {
+
+			if (input.contact_id == savedContactGR.contact.contact_name + '') {
+				return item;
+			}
+				
+		}
+		
+    });
+	
+    return input.notes_reminders;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:06</sys_created_on>
+        <sys_id>2cdd8fad4ef21110867adb721587d3bb</sys_id>
+        <sys_name>Show notes &amp; reminder Transform</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_2cdd8fad4ef21110867adb721587d3bb</sys_update_name>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=2cdd8fad4ef21110867adb721587d3bb"/>
+</record_update>

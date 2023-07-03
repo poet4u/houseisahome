@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Application Menu Visibility">af701e6b473211100d1593bd436d439e</copied_from>
+        <description>This step will do nothing. Provide at least one application menu to assert as visible or not visible</description>
+        <display_name>Application Menu Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Application Menu Visibility">6228cf753752030064a52f3c8e41f1a8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 16:20:07</sys_created_on>
+        <sys_id>96315aab473211100d1593bd436d43f0</sys_id>
+        <sys_name>Application Menu Visibility</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_atf_step_96315aab473211100d1593bd436d43f0</sys_update_name>
+        <table/>
+        <test display_value="My New Test copy">963112ab473211100d1593bd436d4332</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=96315aab473211100d1593bd436d43f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>96315aab473211100d1593bd436d43f0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 16:20:07</sys_created_on>
+        <sys_id>1e315aab473211100d1593bd436d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-02 16:20:07</sys_updated_on>
+        <value>at_least_applications_not_visible</value>
+        <variable display_value="Not visible assert type">abc1e03573220300c79260bdfaf6a7f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>96315aab473211100d1593bd436d43f0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 16:20:07</sys_created_on>
+        <sys_id>5a315aab473211100d1593bd436d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-02 16:20:07</sys_updated_on>
+        <value>at_least_applications_visible</value>
+        <variable display_value="Visible assert type">746a8fb53752030064a52f3c8e41f14c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>96315aab473211100d1593bd436d43f0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 16:20:07</sys_created_on>
+        <sys_id>96315aab473211100d1593bd436d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-02 16:20:07</sys_updated_on>
+        <value/>
+        <variable display_value="Visible application menus">e9994bb53752030064a52f3c8e41f1a9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>96315aab473211100d1593bd436d43f0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 16:20:07</sys_created_on>
+        <sys_id>d2315aab473211100d1593bd436d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-02 16:20:07</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible application menus">1b52683573220300c79260bdfaf6a763</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>96315aab473211100d1593bd436d43f0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-02 16:20:07</sys_created_on>
+        <sys_id>de315aab473211100d1593bd436d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-02 16:20:07</sys_updated_on>
+        <value>polaris</value>
+        <variable display_value="Navigator">e26225ab73f22010ac1560bdfaf6a7e0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_6228cf753752030064a52f3c8e41f1a8^id=96315aab473211100d1593bd436d43f0"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_relationship_data_item">
+    <sys_sg_relationship_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Embedded List Relationship Reminders RDI</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <offline_relation_query_condition/>
+        <query_condition table="x_879347_employe_0_relationship_contact_reminders">^ORDERBYDESCsys_created_on<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/>
+        </query_condition>
+        <query_condition_script/>
+        <relationship>REL:da3784410f416010e3a6120ba4767e71</relationship>
+        <sys_class_name>sys_sg_relationship_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:04</sys_created_on>
+        <sys_id>20dd8fad7df21110d7317d661f4b6fab</sys_id>
+        <sys_name>Embedded List Relationship Reminders RDI</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_relationship_data_item_20dd8fad7df21110d7317d661f4b6fab</sys_update_name>
+        <table>x_879347_employe_0_relationship_contact_reminders</table>
+        <table_related_to>sys_user</table_related_to>
+    </sys_sg_relationship_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=20dd8fad7df21110d7317d661f4b6fab"/>
+</record_update>

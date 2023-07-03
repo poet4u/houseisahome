@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Team Contact Teammates">64dd8fade5f21110c4241aebc9a82b8f</dataset>
+        <order>100</order>
+        <predicate_bundle display_value="contact-team-mates-config">e8dd8fad4ff21110595f346b3ceaa08d</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:14</sys_created_on>
+        <sys_id>e4dd8fad24f211100e136c2915b0d18d</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_e4dd8fad24f211100e136c2915b0d18d</sys_update_name>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

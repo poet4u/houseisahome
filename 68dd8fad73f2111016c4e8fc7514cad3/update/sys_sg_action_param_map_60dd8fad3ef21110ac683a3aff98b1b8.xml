@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Add Reminder">a4dd8fadf7f21110f9138db04e437ab7</button>
+        <item_parameter display_value="Notification_subject">acdd8fad58f2111061a7babf828515b7</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:11</sys_created_on>
+        <sys_id>60dd8fad3ef21110ac683a3aff98b1b8</sys_id>
+        <sys_name>acdd8fad58f2111061a7babf828515b7</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_60dd8fad3ef21110ac683a3aff98b1b8</sys_update_name>
+        <ui_parameter display_value="Subject">6cdd8fad06f21110f7e2144b099cbdb7</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

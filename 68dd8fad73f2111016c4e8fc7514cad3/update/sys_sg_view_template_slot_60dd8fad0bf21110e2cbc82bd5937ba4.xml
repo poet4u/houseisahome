@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="INSERT_OR_UPDATE">
+        <name>d5b88ad0-fc91-c5d3-c524-7aeda4a1d90a</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:11</sys_created_on>
+        <sys_id>60dd8fad0bf21110e2cbc82bd5937ba4</sys_id>
+        <sys_name>d5b88ad0-fc91-c5d3-c524-7aeda4a1d90a</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_60dd8fad0bf21110e2cbc82bd5937ba4</sys_update_name>
+        <type>text</type>
+        <view_template display_value="Team Contact Notes">a0dd8fad45f211103ef855e713c493a4</view_template>
+    </sys_sg_view_template_slot>
+</record_update>

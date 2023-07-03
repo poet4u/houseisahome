@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Team Contacts Config">acdd8fad19f21110988b1a4c91f164d2</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>teammates</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>teammates</route_type>
+        <screen_type display_value="teammates">e4dd8fad43f2111059c61bca1baef992</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:09</sys_created_on>
+        <sys_id>a4dd8fad3ef211103e254726d2234092</sys_id>
+        <sys_name>teammates</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_app_route_a4dd8fad3ef211103e254726d2234092</sys_update_name>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4dd8fad3ef211103e254726d2234092"/>
+</record_update>

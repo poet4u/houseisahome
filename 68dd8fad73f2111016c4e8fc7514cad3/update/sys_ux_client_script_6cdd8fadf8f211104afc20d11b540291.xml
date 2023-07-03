@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Saved">ecdd8fad2ef21110b85c60484fd8a493</macroponent>
+        <name>GoTo ProfilePage</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+     const {
+        snHttp
+    } = helpers;
+
+     snHttp('/api/now/table/x_879347_employe_0_relationship_contact?sysparm_limit=1&sysparm_query=sys_id=' + event.payload.sysid , {
+        method: "GET",
+        batch: false,
+    }).then(response => {
+        if (response.response.result.length > 0) {
+          var contact = response.response.result[0].contact_name.value;
+          helpers.navigate.to("profile-landing",{"sysId":contact});
+        }
+    }).catch(error => {
+        console.log('Error');
+    });
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:12</sys_created_on>
+        <sys_id>6cdd8fadf8f211104afc20d11b540291</sys_id>
+        <sys_name>GoTo ProfilePage</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_client_script_6cdd8fadf8f211104afc20d11b540291</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

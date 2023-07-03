@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>60dd8fad6ff2111055660747fc7b4091</includes>
+        <macroponent display_value="Profile landing">e8dd8fad5ef21110217b8e71e4d53393</macroponent>
+        <name>Create Relationship Contact</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    const {
+        data,
+        state,
+        setState,
+        context
+    } = api;
+
+    const insertRecord = function(table, fields) {
+        data.create_relationship_contact.execute({
+            table,
+            templateFields: fields,
+            useSetDisplayValue: ''
+        });
+
+    };
+
+    const updateRecord = function(table, recordId, fields) {
+        data.update_relationship_contact.execute({
+            table,
+            recordId,
+            templateFields: fields,
+            useSetDisplayValue: ''
+        });
+    };
+
+    //Contact parms
+    const curentUser = context.session.user.sys_id;
+    const contactUser = context.props.sysId;
+
+    //Relationship record
+    if (!state.relationshipRecord) {
+        //Update relationship record
+        var templateFields = "name=" + curentUser + "^contact_name=" + contactUser + "^favorite=" + !api.state.isFavorite;
+        insertRecord('x_879347_employe_0_relationship_contact', templateFields);
+    } else {
+        //Create relationship contact
+        var templateFields = "favorite=" + !api.state.isFavorite;
+        updateRecord('x_879347_employe_0_relationship_contact', state.relationshipRecord, templateFields);
+    }
+
+    //Set state
+    setState("isFavorite", !state.isFavorite);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:09</sys_created_on>
+        <sys_id>e4dd8fadd5f21110c880a161e9beba91</sys_id>
+        <sys_name>Create Relationship Contact</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_client_script_e4dd8fadd5f21110c880a161e9beba91</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

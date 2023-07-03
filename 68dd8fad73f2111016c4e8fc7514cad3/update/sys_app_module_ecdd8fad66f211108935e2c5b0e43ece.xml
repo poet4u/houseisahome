@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Employees\' Contact">28dd8fad7cf21110ce38ca031ad9cdcf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Opens Team Contacts Portal</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Team Contacts Portal</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>10</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/x/879347/x_879347_employe_0/home</query>
+        <report/>
+        <roles>x_879347_employe_0.admin,x_879347_employe_0.employee,x_879347_employe_0.manager</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ecdd8fad66f211108935e2c5b0e43ece</sys_id>
+        <sys_name>Team Contacts Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_app_module_ecdd8fad66f211108935e2c5b0e43ece</sys_update_name>
+        <timeline_page/>
+        <title>Team Contacts Portal</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>_blank</window_name>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="My direct reports">20dd8fad01f211109c5856108e182daf</data_item>
+        <interleaved_field/>
+        <name>My Direct Reports Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:16</sys_created_on>
+        <sys_id>24dd8fad58f211102799ff80026fcdaa</sys_id>
+        <sys_name>My Direct Reports Item Stream</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_item_stream_24dd8fad58f211102799ff80026fcdaa</sys_update_name>
+        <table>sys_user</table>
+    </sys_sg_item_stream>
+</record_update>

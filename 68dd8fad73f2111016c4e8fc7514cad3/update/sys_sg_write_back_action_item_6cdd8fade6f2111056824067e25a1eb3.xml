@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+   var gr = new GlideRecord('x_879347_employe_0_relationship_notes');
+	gr.initialize(); 
+	gr.contact = input.sys_id; 
+	gr.contact_date = input.Date;
+	gr.note = input.Note;
+	gr.relationship = input.Reason;
+	gr.contact_location = input.Where;
+	gr.insert();
+ 
+})(input);]]></execution_script>
+        <name>Relationship Table Add Note for Contact</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:10</sys_created_on>
+        <sys_id>6cdd8fade6f2111056824067e25a1eb3</sys_id>
+        <sys_name>Relationship Table Add Note for Contact</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_6cdd8fade6f2111056824067e25a1eb3</sys_update_name>
+        <table>x_879347_employe_0_relationship_notes</table>
+        <template>contact=^EQ</template>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=6cdd8fade6f2111056824067e25a1eb3"/>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Team Contact User">24dd8fad06f211101ecc00663af8688f</dataset>
+        <datasource display_value="Team Contact User">e4dd8fadbbf21110482ee6dcc75aa88f</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:07</sys_created_on>
+        <sys_id>e4dd8fad9cf2111068c19577dd91e58e</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_e4dd8fad9cf2111068c19577dd91e58e</sys_update_name>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

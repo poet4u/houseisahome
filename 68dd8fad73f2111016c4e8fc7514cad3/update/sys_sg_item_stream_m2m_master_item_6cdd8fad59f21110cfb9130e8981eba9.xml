@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="List of Reminders for a contact Item Stream">2cdd8fadc7f21110c14f0877372fffaa</item_stream>
+        <master_item display_value="List of Reminders for a contact Main Item">e8dd8fade9f21110d28b171df0e0deaf</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:16</sys_created_on>
+        <sys_id>6cdd8fad59f21110cfb9130e8981eba9</sys_id>
+        <sys_name/>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_6cdd8fad59f21110cfb9130e8981eba9</sys_update_name>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

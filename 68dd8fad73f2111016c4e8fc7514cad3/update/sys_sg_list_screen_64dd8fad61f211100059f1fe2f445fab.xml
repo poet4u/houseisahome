@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state display_value="Default Empty State">53aa5156b723101096aa25efce11a933</empty_state>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">68dd8fade4f211104883efbf08d60aab</icon>
+        <name>My Direct Reports</name>
+        <roles_override>x_879347_employe_0.manager</roles_override>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:19</sys_created_on>
+        <sys_id>64dd8fad61f211100059f1fe2f445fab</sys_id>
+        <sys_name>My Direct Reports</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_list_screen_64dd8fad61f211100059f1fe2f445fab</sys_update_name>
+    </sys_sg_list_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=64dd8fad61f211100059f1fe2f445fab"/>
+</record_update>

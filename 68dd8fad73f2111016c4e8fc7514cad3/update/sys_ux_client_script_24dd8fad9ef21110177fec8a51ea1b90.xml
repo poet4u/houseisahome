@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Login">a4dd8fad77f2111021d04a730f21c590</macroponent>
+        <name>Show alert on logout</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "You are now logged out of your session",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (api.context.props.loggedOut == 'true') {
+        helpers.translate('You are now logged out of your session').then((message) => {
+            api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items: [{
+                    id: "alert1",
+                    status: "info",
+                    icon: "circle-check-outline",
+                    header: "",
+                    content: {
+                        type: "html",
+                        value: `<span>${message}</span>`,
+                    },
+                    action: {
+                        type: "dismiss"
+                    },
+                }],
+            });
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:15</sys_created_on>
+        <sys_id>24dd8fad9ef21110177fec8a51ea1b90</sys_id>
+        <sys_name>Show alert on logout</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_ux_client_script_24dd8fad9ef21110177fec8a51ea1b90</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

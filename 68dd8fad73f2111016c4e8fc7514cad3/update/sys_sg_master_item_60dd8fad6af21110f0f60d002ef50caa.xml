@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_879347_employe_0_relationship_contact</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Saved Employees">24dd8fad3ff21110443a5e6cbada69b2</embedded_screen>
+        <item_view/>
+        <name>Favorites Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:16</sys_created_on>
+        <sys_id>60dd8fad6af21110f0f60d002ef50caa</sys_id>
+        <sys_name>Favorites Main Item</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_master_item_60dd8fad6af21110f0f60d002ef50caa</sys_update_name>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Favorites View Config">a0dd8fad13f211103d11289b8476bea7</view_config>
+    </sys_sg_master_item>
+</record_update>

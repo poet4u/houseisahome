@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>My Teammates View Config</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:10</sys_created_on>
+        <sys_id>a8dd8fadf6f211100a48f2b8fa2048ad</sys_id>
+        <sys_name>My Teammates View Config</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_sg_view_config_a8dd8fadf6f211100a48f2b8fa2048ad</sys_update_name>
+        <table>sys_user</table>
+        <template display_value="Contact Header">a4dd8fad3df21110e4335fff6880e0a4</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8dd8fadf6f211100a48f2b8fa2048ad"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>true</click_in_mode>
+        <context_config_id display_value="Team Contact Search Configuration">e8dd8fad71f21110e13ec04c7604d8d0</context_config_id>
+        <limit>5</limit>
+        <order>200</order>
+        <section_header>Popular Searches</section_header>
+        <suggestion_type>Popular Search Reader Group for Team Contact Search Config</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 15:37:17</sys_created_on>
+        <sys_id>a8dd8fad59f21110e43b54d2528338d0</sys_id>
+        <sys_name>Popular Search Reader Group for Team Contact Search Config</sys_name>
+        <sys_package display_value="Employees\' Contact" source="x_879347_employe_0">68dd8fad73f2111016c4e8fc7514cad3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employees\' Contact">68dd8fad73f2111016c4e8fc7514cad3</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_a8dd8fad59f21110e43b54d2528338d0</sys_update_name>
+    </sys_suggestion_reader_group>
+</record_update>
